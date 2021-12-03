@@ -1,0 +1,13 @@
+git config --global user.name Satyam
+git config --global user.email "techgiantsatyam"
+touch .gitignore
+(open .gitignore and type node_module/(save)
+git init
+git add.
+git commit -m "initial commit"
+git status
+git remote add origin( paste SSH link)
+git push origin master(this will don't work)
+Copy the code {how to generate ssh key in github}
+cat { copy the path of public key from /c/users/iitia..... }
+git push origin master(this time it will work)
