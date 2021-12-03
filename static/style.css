@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fruktur&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+#logo{display: flex;
+color:white;
+align-items: center;
+}
+#logo img {height:22px;
+filter:invert(1);}
+#navbar{
+    background-color: rgb(243, 91, 91);
+    padding:18px 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#navbar ul {display: flex;
+    flex-direction: row;
+    /* justify-content:center; */
+    align-items: center;
+}
+#navbar li a{
+    color:whitesmoke;
+    text-decoration: none;
+    padding:10px 30px;
+}
+#navbar li a:hover{
+    color:red;
+    text-decoration: none;
+    padding:10px 30px;
+    font-weight: bold;
+}
+#navbar li{
+    list-style: none;
+}
+
+#introsection{
+    
+    height:425px;
+    background-color: red;
+background:center/cover no-repeat url("/static/bg.jpg");
+color: white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Dancing Script', cursive;
+font-size: 2rem;
+padding-bottom:150px;
+}
+#introsection div.sml{font-size: 1.4rem;}
+
+#ourmission{
+    height:346px;
+    background-color: tomato;
+    width:67%;
+    margin:auto;
+
+}
+#ourmission h2{text-align: center;
+                font-family:'Dancing Script', cursive;
+            font-size:36px;}
+.card{
+    border:2px solid black;
+    border-radius: 10px;
+    width:30%;
+    margin:22px 15px;
+    height:200px;
+    display:inline-block;
+
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+}
+
+.card-box{
+    display:flex;
+    align-items :center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding:0 14px;
+    margin:5px 9px;
+}
+.card-img img{
+    height:inherit;
+}
+.card-content{padding: 0px 24px;}
+.card-content p{font-size:19px;
+}
+
+#sponsorsection{
+    height:300px;
+    background-color: yellow;
+}
+#sponsorsection h2{
+    font-size:36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top:12px;
+
+}
+#sponsors{
+    height:162px;
+    max-width:1000px;
+    margin:auto;
+}
+.spimage{
+height:100%;
+    margin:20px;
+}
+
+#footer{
+    display:flex;
+
+    height:50px;
+    background-color: black;
+color:white;
+justify-content: center;
+align-items: center;
+
+}
